@@ -16,6 +16,9 @@ var isRunning = true;
     while (isRunning) {
         console.log('1. Insert new User');
         console.log('2. Show all user data');
+        console.log('3. Delete User');
+        console.log('10. Show all user data');
+        
         let input = prompt('Please input menu ');
     
         if(Number(input) === 1){

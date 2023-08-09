@@ -1,4 +1,3 @@
-'use strict';
 module.exports = (sequilize, Sequelize) => {
     let Users = sequilize.define('users', {
         name: {

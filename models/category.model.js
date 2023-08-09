@@ -1,5 +1,3 @@
-
-
 module.exports = (sequelize, Sequelize) =>{
     const Categories = sequelize.define(
         'categories',{
